@@ -1,0 +1,93 @@
+/* место для вашего кода */
+.header_contacts {
+  max-width: 240.52px;
+  height: 98px;
+  overflow-wrap: break-word;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 25.48px 2px 184px;
+}
+
+.header {
+  display: flex;
+  margin: 92px 24px 96px;
+  width: 1052px;
+  height: 105px;  
+}
+
+.header_logo {
+  display: block;
+  width: 148px;
+  margin: 0px;
+  position: relative; /* как то сделать так чтобы меню и контакты не видели лого */
+}
+
+.header_menu {
+  list-style: circle;
+  font-size: 18px;
+  gap: 27px;
+  display: flex;
+  margin: 44px 368px 39px 26.52px;
+}
+
+.header_menu li {
+  display: list-item;
+}
+
+.header__links-list-item_no-bullet {
+  list-style: none;
+}
+
+.overlay {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+.cover {
+  display: grid;
+  width: 1100px;
+  height: 757px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  position: relative;
+}
+
+.background_image {
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.cover_title {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 100px;
+  display: grid;
+  align-self: center;
+  z-index: 3;
+  position: absolute;
+  width: 1000px;
+  height: 355px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+  line-height: 115px;
+}
+
+.aligned-text {
+}
+
+.aligned-text_center {
+}
+
+.ligned-text_right {
+}
